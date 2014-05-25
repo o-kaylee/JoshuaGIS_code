@@ -1,0 +1,127 @@
+﻿Build started 2013-06-13 오후 3:20:34.
+     1>Project "C:\Users\박은비\Desktop\Joshua35\JoshuaGIS3\JoshuaGIS3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\JoshuaGIS3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\JoshuaGIS3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JoshuaGIS3View.cpp
+         JoshuaGIS3View.cpp
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(87): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(88): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(90): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(246): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(357): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(435): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(436): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(444): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(446): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(587): warning C4101: 'name2' : unreferenced local variable
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(751): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(751): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(751): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(751): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(751): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(830): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(830): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(830): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(831): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(848): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(848): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(848): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(848): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(853): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(853): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(853): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(860): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(860): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(860): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(864): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(864): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(864): warning C4244: 'argument' : conversion from 'GLdouble' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(953): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1010): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1020): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1020): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1020): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1021): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1023): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1023): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1023): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1029): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1030): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1036): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1036): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1036): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1040): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1047): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1047): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1047): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1048): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1054): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1055): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1060): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1060): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1060): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1064): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1071): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1071): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1071): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1146): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1146): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1147): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\박은비\desktop\joshua35\joshuagis3\joshuagis3view.cpp(1147): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\박은비\Desktop\Joshua35\Debug\JoshuaGIS3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glaux.lib /MANIFEST /ManifestFile:"Debug\JoshuaGIS3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\박은비\Desktop\Joshua35\Debug\JoshuaGIS3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\박은비\Desktop\Joshua35\Debug\JoshuaGIS3.lib" /MACHINE:X86 Debug\JoshuaGIS3.res
+         Debug\JoshuaGIS3.exe.embed.manifest.res
+         Debug\AddExcelDlg.obj
+         Debug\AddObjectDlg.obj
+         Debug\AddSheetDlg.obj
+         Debug\BasicExcel.obj
+         Debug\CalculateFace.obj
+         Debug\CalculateVertex.obj
+         Debug\Camera.obj
+         Debug\Coordinate.obj
+         Debug\DeleteExcelDlg.obj
+         Debug\ExcelFile.obj
+         Debug\ExcelFileManage.obj
+         Debug\ExcelFormat.obj
+         Debug\Face.obj
+         Debug\FileManage.obj
+         Debug\Information.obj
+         Debug\InformationDraw.obj
+         Debug\InformationLine.obj
+         Debug\InformationPoint.obj
+         Debug\InformationPolygon.obj
+         Debug\JoshuaGIS3.obj
+         Debug\JoshuaGIS3Doc.obj
+         Debug\JoshuaGIS3View.obj
+         Debug\JoshuaGISColor.obj
+         Debug\LeftTree.obj
+         Debug\Line.obj
+         Debug\MainFrm.obj
+         Debug\NaktaVertex.obj
+         Debug\Polygon.obj
+         Debug\PropertyForm.obj
+         Debug\RemoveConfirmDlg.obj
+         Debug\RemoveSheetDlg.obj
+         Debug\Sheet.obj
+         Debug\stdafx.obj
+         Debug\Texture.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\JoshuaGIS3.exe.embed.manifest" /manifest Debug\JoshuaGIS3.exe.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         JoshuaGIS3.vcxproj -> C:\Users\박은비\Desktop\Joshua35\Debug\JoshuaGIS3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\JoshuaGIS3.unsuccessfulbuild".
+         Touching "Debug\JoshuaGIS3.lastbuildstate".
+     1>Done Building Project "C:\Users\박은비\Desktop\Joshua35\JoshuaGIS3\JoshuaGIS3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

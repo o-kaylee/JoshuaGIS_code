@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1C620786-A0E3-4884-A496-81BCA5C78704}</ProjectGuid>
+    <RootNamespace>JoshuaGIS3</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;glaux.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;glaux.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="naktaImage.bmp" />
+    <None Include="naktaImageHigh.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\JoshuaGIS3.ico" />
+    <None Include="res\JoshuaGIS3.rc2" />
+    <None Include="res\JoshuaGIS3Doc.ico" />
+    <None Include="sky.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddExcelDlg.h" />
+    <ClInclude Include="AddObjectDlg.h" />
+    <ClInclude Include="AddSheetDlg.h" />
+    <ClInclude Include="BasicExcel.hpp" />
+    <ClInclude Include="CalculateFace.h" />
+    <ClInclude Include="CalculateVertex.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Coordinate.h" />
+    <ClInclude Include="DeleteExcelDlg.h" />
+    <ClInclude Include="ExcelFile.h" />
+    <ClInclude Include="ExcelFileManage.h" />
+    <ClInclude Include="ExcelFormat.h" />
+    <ClInclude Include="Face.h" />
+    <ClInclude Include="FileManage.h" />
+    <ClInclude Include="Information.h" />
+    <ClInclude Include="InformationDraw.h" />
+    <ClInclude Include="InformationLine.h" />
+    <ClInclude Include="InformationPoint.h" />
+    <ClInclude Include="InformationPolygon.h" />
+    <ClInclude Include="JoshuaGIS3.h" />
+    <ClInclude Include="JoshuaGIS3Doc.h" />
+    <ClInclude Include="JoshuaGIS3View.h" />
+    <ClInclude Include="JoshuaGISColor.h" />
+    <ClInclude Include="LeftTree.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="NaktaVertex.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="PropertyForm.h" />
+    <ClInclude Include="RemoveConfirmDlg.h" />
+    <ClInclude Include="RemoveSheetDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sheet.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddExcelDlg.cpp" />
+    <ClCompile Include="AddObjectDlg.cpp" />
+    <ClCompile Include="AddSheetDlg.cpp" />
+    <ClCompile Include="BasicExcel.cpp" />
+    <ClCompile Include="CalculateFace.cpp" />
+    <ClCompile Include="CalculateVertex.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Coordinate.cpp" />
+    <ClCompile Include="DeleteExcelDlg.cpp" />
+    <ClCompile Include="ExcelFile.cpp" />
+    <ClCompile Include="ExcelFileManage.cpp" />
+    <ClCompile Include="ExcelFormat.cpp" />
+    <ClCompile Include="Face.cpp" />
+    <ClCompile Include="FileManage.cpp" />
+    <ClCompile Include="Information.cpp" />
+    <ClCompile Include="InformationDraw.cpp" />
+    <ClCompile Include="InformationLine.cpp" />
+    <ClCompile Include="InformationPoint.cpp" />
+    <ClCompile Include="InformationPolygon.cpp" />
+    <ClCompile Include="JoshuaGIS3.cpp" />
+    <ClCompile Include="JoshuaGIS3Doc.cpp" />
+    <ClCompile Include="JoshuaGIS3View.cpp" />
+    <ClCompile Include="JoshuaGISColor.cpp" />
+    <ClCompile Include="LeftTree.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NaktaVertex.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="PropertyForm.cpp" />
+    <ClCompile Include="RemoveConfirmDlg.cpp" />
+    <ClCompile Include="RemoveSheetDlg.cpp" />
+    <ClCompile Include="Sheet.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JoshuaGIS3.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="JoshuaGIS3.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

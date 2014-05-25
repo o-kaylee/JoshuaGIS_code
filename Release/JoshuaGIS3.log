@@ -1,0 +1,22 @@
+﻿Build started 2013-06-05 오후 5:35:52.
+     1>Project "G:\Joshua35\JoshuaGIS3\JoshuaGIS3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\JoshuaGIS3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         JoshuaGIS3.vcxproj -> G:\Joshua35\Release\JoshuaGIS3.exe
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Release\JoshuaGIS3.unsuccessfulbuild".
+         Touching "Release\JoshuaGIS3.lastbuildstate".
+     1>Done Building Project "G:\Joshua35\JoshuaGIS3\JoshuaGIS3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49
